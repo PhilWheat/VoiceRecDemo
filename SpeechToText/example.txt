@@ -1,0 +1,20 @@
+-- format
+-- [text to recognize] | [text to display or execute] | [is text a command?]
+
+-- simple text --
+one|you said "one"|false
+two|you said "two"|false
+three|you said "three"|false
+four|you said "four"|false
+five|you said "five"|false
+six|you said "six"|false
+seven|you said "seven"|false
+eight|you said "eight"|false
+nine|you said "nine"|false
+ten|you said "ten"|false
+
+
+-- commands --
+visual studio|devenv.exe|true
+wordpad|wordpad.exe|true
+calculator|calc.exe|true
